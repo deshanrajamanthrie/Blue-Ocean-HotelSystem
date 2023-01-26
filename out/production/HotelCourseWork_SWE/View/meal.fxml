@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealController">
+   <children>
+      <ImageView fitHeight="609.0" fitWidth="915.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/8.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="248.0" layoutY="152.0" mnemonicParsing="false" onAction="#addMealOnActon" opacity="0.07" prefHeight="53.0" prefWidth="426.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="248.0" layoutY="377.0" mnemonicParsing="false" onAction="#deleteOnAction" opacity="0.09" prefHeight="53.0" prefWidth="426.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="248.0" layoutY="257.0" mnemonicParsing="false" onAction="#modifyOnAction" opacity="0.07" prefHeight="53.0" prefWidth="426.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="27.0" layoutY="556.0" mnemonicParsing="false" onAction="#backOnAction" opacity="0.03" prefHeight="37.0" prefWidth="85.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

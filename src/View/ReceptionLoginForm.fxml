@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceptionLoginFormController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="901.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/15.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="215.0" layoutY="200.0" prefHeight="62.0" prefWidth="356.0" promptText="User _Name" />
+      <PasswordField layoutX="215.0" layoutY="277.0" prefHeight="62.0" prefWidth="356.0" promptText="PassWord" />
+      <Button layoutX="288.0" layoutY="391.0" mnemonicParsing="false" onAction="#loginOnAction" opacity="0.07" prefHeight="76.0" prefWidth="226.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#backOnAction" opacity="0.22" prefHeight="31.0" prefWidth="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
